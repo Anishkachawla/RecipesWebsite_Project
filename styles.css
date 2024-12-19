@@ -15,13 +15,16 @@
     align-items: center;
 }
 .container{
-    height: 100vh;
-    width: 100vh;
+    height: 100vw;
+    width: 100vw;
     overflow-x: none;
+    background: rgb(213,214,221);
+    background: linear-gradient(90deg, rgba(213,214,221,1) 0%, rgba(250,247,247,1) 100%);
 }
 .navcontainer{
     width: 100vw;
-    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    background: rgb(33,172,250);
+    background: linear-gradient(90deg, rgba(33,172,250,1) 0%, rgba(217,221,222,1) 86%);
     min-height: 80px;
     display:flex;
     justify-content: center;
@@ -41,4 +44,15 @@ a{
     font-size: 1.5rem;
     display: flex;
     gap: 30px;
+}
+
+.footerbox{
+    background: rgb(33,172,250);
+    background: linear-gradient(90deg, rgba(33,172,250,1) 0%, rgba(217,221,222,1) 86%);
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+}
+.footerbox p {
+    font-size: 1.5rem;
 }
