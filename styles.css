@@ -56,3 +56,25 @@ a{
 .footerbox p {
     font-size: 1.5rem;
 }
+
+.contentbox{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.leftbox h4 {
+    font-style: italic;
+}
+.item{
+    /* background-color: rgb(138, 186, 207); */
+    display: flex;
+    justify-content: space-between;
+}
+.rightbox img{
+    height: 300px;
+    width: 300px;
+}
+.rightbox{
+    display: flex;
+    align-items: center;
+}
